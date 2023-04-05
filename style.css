@@ -1,0 +1,60 @@
+.links {
+    float: right;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    font-size: 2rem;
+    padding: 0.5cm 1cm;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/736x/25/44/5a/25445a43d5ac691372f7091703bb16a2.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+img{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.intro h1{
+    margin-left: 90px;
+    margin-top: 90px;
+    font-size: x-large;
+}
+.intro h2 {
+    margin-left: 20px;
+    margin-right: 30px;
+    font: weight 100px;
+}
+.intro p{
+font-style: italic;
+margin-left: 550px;
+margin-right: 450px;
+margin-top: 70px;
+font-weight: 800;
+font-size:x-large;
+font-family: cursive;
+}
+article{
+    background-color: rgb(195, 196, 202);
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 80px;
+}
+.social a{
+text-decoration: none;
+color: black;
+}
+footer{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 550px;
+}
