@@ -9,7 +9,7 @@
 }
 .links a{
     text-decoration: none;
-    color: rgb(82, 187, 170);
+    color: rgb(54, 122, 111);
 }
 .name{
     float:left;
@@ -22,9 +22,9 @@
     background-color: rgb(195, 196, 202);
 }
 header{
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0.5cm 1cm;
-    color: rgb(82, 187, 170);
+    color: rgb(54, 122, 111);
 }
 body{
     margin: 0;
@@ -45,7 +45,6 @@ body{
     text-align:center;
     margin-left: 50px; 
     margin-top: 70px;
-    font-size: xx-large;
     padding-top: 25px;
 }
 .intro h2 {
@@ -86,13 +85,25 @@ article{
     text-decoration: none;
     color: rgb(82, 187, 170);
 }
+.social img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 255, 255);
+        
+    }
 footer{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
-    border-radius: 200px; 
-    margin-left: 450px;
-    margin-right: 450px;
+    padding-left: 25px;
+    border-radius: 100px; 
+    margin-left: 600px;
+    margin-right: 600px;
     margin-top: 700px;
     background-color: rgb(195, 196, 202);
 }
@@ -106,13 +117,12 @@ footer{
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.seconMain section h2{
+.secondMain section h2{
     margin-left: 35px;
-    margin-bottom: 0px;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;   
 }
-.seconMain section{
-    background-color: rgb(195, 196, 202);
+.secondMain section{
     border-radius: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -120,6 +130,7 @@ footer{
     margin-top: 200px;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: rgb(195, 196, 202);
 }
 section p{
     margin-left: 200px;
@@ -162,14 +173,30 @@ border-radius: 100px;
 }
 .thirdMain section h2 {
     margin-left: 35px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 5px;
+}
+.thirdMain section p {
+    background-color: rgb(242, 243, 247);
+    padding-top:30px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 40px;
+    border-radius: 50px;
+    line-height: 70px;
+}
+.thirdMain section img{
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .thirdMain section {
     background-color: rgb(195, 196, 202);
     border-radius: 100px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 200px;
     margin-bottom: 200px;
     margin-top: 200px;
     margin-left: 50px;
