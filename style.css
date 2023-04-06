@@ -203,8 +203,5 @@ border-radius: 100px;
     margin-right: 50px;
 }
 body{
-    max-width: fit-content;
-    max-height: fit-content;
+    min-width: 39em;
 }
-
-
