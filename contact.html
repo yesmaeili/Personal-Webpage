@@ -15,18 +15,25 @@
             <a href="about.html">ABOUT</a>
             <a href="portfolio.html">PORTFOLIO</a>
             <a href="contact.html">CONTACT</a>
-        </nav>
-    </header>
-    <main class="firstMain">
-    <nav>
-        <img class="pic" src="IMGS/YAS2.png" alt="Profile Pictutre">
-    </nav>
-    <article class="intro">
-        <h1>Professional Human Resources - Prospective Software Developer</h1>
-        <h2>I am pursuing a career change from Human Resources to Software Development. I am currently in the process of acquiring the necessary skills and knowledge through dedicated study and coursework.</h2>
-        <p>“what you seek is seeking you” -Rumi</p>
-    </article>
+        </nav>  
+    </header> 
+
+    <main class="contactmain">
+    <h1>Contact Us</h1>
+    <form action="submit-form.php" method="POST">
+      <label class="fname" for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required><br><br>
+      
+      <label class="eaddress" for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label calss="messagedraft" for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br><br>
+      
+      <button type="submit">Submit</button>
+    </form>
     </main>
+
     <footer>
         <nav class="social">
             <a href="https://www.linkedin.com/in/yesmaeili/"> 
@@ -39,6 +46,6 @@
             <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter Logo">
         </a>
         </nav>
-    </footer>   
+    </footer>  
 </body>
 </html>
