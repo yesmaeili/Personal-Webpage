@@ -211,11 +211,24 @@ border-radius: 100px;
 
     .contactmain {
         margin: 500px;
+        background-color: rgb(117, 135, 181);
+    padding-top: 150px;
+    padding-bottom: 500px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 200px;
     }
 
     .contactmain h1 {
         text-align: center;
+        background-color: rgb(195, 196, 202);
+        margin:70px;
+        border-radius: 50px;
+        padding-bottom: 50px;
     }
+    
     
     form {
         width: 50%;
